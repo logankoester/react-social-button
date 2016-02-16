@@ -1,7 +1,7 @@
 {
   "name": "react-social-button",
   "version": "1.0.0",
-  "description": "Social Button",
+  "description": "React component for bootstrap-social based using react-bootstrap.",
   "main": "lib/SocialButton.js",
   "author": "Aljoscha Meyer",
   "license": "MIT",
@@ -14,7 +14,6 @@
     "url": "https://github.com/AljoschaMeyer/react-social-button/issues"
   },
   "dependencies": {
-    "classnames": "^2.1.2",
     "react-bootstrap": "^0.28.3"
   },
   "devDependencies": {
