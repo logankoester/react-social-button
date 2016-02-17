@@ -1,13 +1,12 @@
 # Social Button
 
-__COMPONENT DESCRIPTION GOES HERE__
+React component for <a href="https://lipis.github.io/bootstrap-social/">bootstrap-social</a>, based on the <a href="https://react-bootstrap.github.io/components.html#buttons">react-bootstrap</a> button.
 
-
-## Demo & Examples
+## Demo
 
 Live demo: [AljoschaMeyer.github.io/react-social-button](http://AljoschaMeyer.github.io/react-social-button/)
 
-To build the examples locally, run:
+To build the example locally, run:
 
 ```
 npm install
@@ -30,32 +29,23 @@ npm install react-social-button --save
 
 ## Usage
 
-__EXPLAIN USAGE HERE__
+This is based on [bootstrap-social](https://lipis.github.io/bootstrap-social/) and [react-bootstrap](https://react-bootstrap.github.io/), so it only works if the css files required by those projects are present ([Bootstrap](http://getbootstrap.com/2.3.2/), [Font Awesome](http://fortawesome.github.io/Font-Awesome/) and [Bootstrap Social](https://lipis.github.io/bootstrap-social/)).
 
-```
+
+```js
 var SocialButton = require('react-social-button');
 
-<SocialButton>Example</SocialButton>
+<SocialButton
+  social='twitter'
+  btnProps={{
+    disabled: true,
+    onClick: function(){alert('Callback called.');}
+  }}/>
 ```
 
 ### Properties
 
-* __DOCUMENT PROPERTIES HERE__
-
-### Notes
-
-__ADDITIONAL USAGE NOTES__
-
-
-## Development (`src`, `lib` and the build process)
-
-**NOTE:** The source code for the component is in `src`. A transpiled CommonJS version (generated with Babel) is available in `lib` for use with node.js, browserify and webpack. A UMD bundle is also built to `dist`, which can be included without the need for any build system.
-
-To build, watch and serve the examples (which will also watch the component source), run `npm start`. If you just want to watch changes to `src` and rebuild `lib`, run `npm run watch` (this is useful if you are working with `npm link`).
-
-## License
-
-__PUT LICENSE HERE__
-
-Copyright (c) 2016 Aljoscha Meyer.
-
+- `social`: This is used for the classnames for bootstrap-social. Required.
+- `text`: Optional text to be included next to the logo. Only the logo is shown if this is `null` (default).
+- `loading`: If this is set to `true`, a spinner animation replaces the logo.
+- `btnProps`: Properties object, the properties are passed down to the underlying [Button](https://react-bootstrap.github.io/components.html#buttons).
