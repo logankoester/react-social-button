@@ -1,6 +1,6 @@
 {
   "name": "react-social-button",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "React component for bootstrap-social based using react-bootstrap.",
   "main": "lib/SocialButton.js",
   "author": "Aljoscha Meyer",
