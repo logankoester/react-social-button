@@ -14,7 +14,7 @@
     "url": "https://github.com/AljoschaMeyer/react-social-button/issues"
   },
   "dependencies": {
-    "react-bootstrap": "^0.28.3"
+    "react-bootstrap": "^0.30.3"
   },
   "devDependencies": {
     "babel-eslint": "^4.1.3",
