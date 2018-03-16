@@ -14,19 +14,20 @@
     "url": "https://github.com/AljoschaMeyer/react-social-button/issues"
   },
   "dependencies": {
-    "react-bootstrap": "^0.30.3"
+    "prop-types": "^15.6.1",
+    "react-bootstrap": "^0.32.1"
   },
   "devDependencies": {
     "babel-eslint": "^4.1.3",
     "eslint": "^1.6.0",
     "eslint-plugin-react": "^3.5.1",
     "gulp": "^3.9.0",
-    "react": "^0.14.0",
-    "react-component-gulp-tasks": "^0.7.6",
-    "react-dom": "^0.14.0"
+    "react": "^16.2.0",
+    "react-component-gulp-tasks": "https://github.com/sahilchaddha/react-component-gulp-tasks.git#d3f1fb8196bb252be5e790dcb149067aea22c14d",
+    "react-dom": "^16.2.0"
   },
   "peerDependencies": {
-    "react": "^0.14.0"
+    "react": "^16.2.0"
   },
   "browserify-shim": {
     "react": "global:React"
