@@ -2,6 +2,7 @@
 
 import React from 'react';
 import {Button} from 'react-bootstrap';
+import PropTypes from 'prop-types';
 
 let SocialButton = (props) => (
   <Button
@@ -15,10 +16,10 @@ let SocialButton = (props) => (
 SocialButton.displayName = 'SocialButton';
 
 SocialButton.propTypes = {
-  social: React.PropTypes.string.isRequired,
-  text: React.PropTypes.string,
-  loading: React.PropTypes.bool,
-  btnProps: React.PropTypes.object
+  social: PropTypes.string.isRequired,
+  text: PropTypes.string,
+  loading: PropTypes.bool,
+  btnProps: PropTypes.object
 };
 
 SocialButton.defaultProps = {
